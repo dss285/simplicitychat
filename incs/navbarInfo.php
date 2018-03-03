@@ -1,0 +1,1 @@
+<p style="color: white; font-size: 20px;">THIS IS THE EPIC TEXT FROM NAVBAR INFO!</p>

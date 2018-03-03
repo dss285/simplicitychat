@@ -1,0 +1,1 @@
+<img src="data:image/png;base64,<?php echo base64_encode(file_get_contents("http://www.nokiaxwallpaper.com/wp-content/uploads/Games/Sniper%20Natasha%20Volkova%20Nokia%20X%20Wallpapers.jpg")) ?>">

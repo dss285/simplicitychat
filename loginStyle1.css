@@ -1,0 +1,61 @@
+body {
+	background-color: #9deab4;
+	background-image: url("images/app/registerBackground2.jpg");
+	background-size:100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.c {
+padding:1%;	
+}
+.header {
+	background-color:#000;
+	width:100%;
+	color:#fff;
+	font-size:30px;
+}
+/*KEYFRAMES*/
+
+@keyframes regButton {
+    0%   {background-color: #4479BA;}
+    25% {background-color: #365F91;}
+    100% {background-color: #4479BA;}}
+
+.mainSurface {
+	background-color: rgba(255,255,255, 0.90);
+}
+
+.footerBar {
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 150px;
+}
+
+.registerButton {
+	background: #4479BA;
+	box-shadow:1px 1px 1px #444;
+	margin-top:2%;
+	text-align:center;
+	vertical-align:middle;
+	font-family:Tahoma;
+	color: white;
+}
+
+.registerButton:hover {
+	cursor: pointer;
+
+    animation-name: regButton;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.register-form {
+	display:none;
+	position: absolute;
+	z-index: 5;
+	color: cyan;
+	top: 0px;
+	left: 0px;
+}
